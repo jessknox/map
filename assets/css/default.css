@@ -1,0 +1,76 @@
+*{box-sizing: border-box;}
+@font-face {
+  font-family: Clairvaux;
+  src: ./assets/Clairvaux-Roman.ttf;
+}
+
+p {
+  color: gray;
+  font-family: leimzy;
+  font-size: 20px;
+  padding: 0%;
+}
+
+img {
+  width:100%;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  background-color: white;
+  color: gray;
+  font-family: Clairvaux;
+  font-size: 20px;
+  padding: 0%;
+  height: 200%;
+  overflow: hidden;
+}
+
+.title-container{
+  width: 80%;
+  height: 80%;
+  /* outline-color: black;
+  outline-style: solid; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.title{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+  /* .e{
+    width: 25%;
+    outline-color: black;
+    outline-style: solid;
+    float: left;
+    margin-top: 10%;
+  }
+
+  .r{
+    width: 25%;
+    outline-color: black;
+    outline-style: solid;
+    float: left;
+    margin-top: 10%;
+  }
+
+  .i{
+    width: 25%;
+    outline-color: black;
+    outline-style: solid;
+    float: left;
+    margin-top: 10%;
+  }
+
+  .e2{
+    width: 25%;
+    outline-color: black;
+    outline-style: solid;
+    float: left;
+    margin-top: 10%;
+  } */
