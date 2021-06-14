@@ -1,18 +1,18 @@
 *{box-sizing: border-box;}
 @font-face {
-  font-family: Clairvaux;
-  src: ./assets/Clairvaux-Roman.ttf;
+  font-family: Leimzy;
+  src: ./assets/Leimzy-Regular.otf;
 }
 
 p {
   color: gray;
-  font-family: leimzy;
+  font-family: Leimzy;
   font-size: 20px;
   padding: 0%;
 }
 
 img {
-  width:100%;
+  height:100%;
 }
 
 body{
@@ -20,29 +20,118 @@ body{
   padding: 0;
   background-color: white;
   color: gray;
-  font-family: Clairvaux;
+  font-family: Leimzy;
   font-size: 20px;
   padding: 0%;
-  height: 200%;
+  height: 100%;
   overflow: hidden;
 }
 
-.title-container{
-  width: 80%;
-  height: 80%;
+a{
+  text-decoration: none;
+  color: black;
+}
+.map-container{
+  width: 50%;
+  height: 95%;
   /* outline-color: black;
   outline-style: solid; */
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
-.title{
-  margin-top: auto;
-  margin-bottom: auto;
+
+.placeholder{
+  position: absolute;
+  top: 5%;
+  left: 27%;
+  height: 50px;
+  width: 50px;
+  z-index: 100;
+}
+  .placeholder:hover{
+    filter: drop-shadow(0 0 30px #CEFA05);
+  }
+  .placeholder .home {
+    visibility: hidden;
+    width: 500px;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 90%;
+    z-index: 4;
+  }
+  .placeholder:hover .home{
+    visibility: visible;
+  }
+
+.placeholder2{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  height: 50px;
+  width: 50px;
+  z-index: 100;
+}
+  .placeholder2:hover{
+    filter: drop-shadow(0 0 30px #CEFA05);
+  }
+  .placeholder2 .map {
+    visibility: hidden;
+    width: 500px;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 90%;
+    z-index: 4;
+  }
+  .placeholder2:hover .map{
+    visibility: visible;
+  }
+.placeholder3{
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  height: 50px;
+  width: 50px;
+  z-index: 100;
+}
+  .placeholder3:hover{
+    filter: drop-shadow(0 0 30px #CEFA05);
+  }
+  .placeholder3 .video {
+    visibility: hidden;
+    width: 500px;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 90%;
+    z-index: 4;
+  }
+  .placeholder3:hover .video{
+    visibility: visible;
+  }
+
+.placeholder4{
+  position: absolute;
+  top: 42%;
+  left: 25%;
+  height: 50px;
+  width: 50px;
+  z-index: 100;
 }
 
+.placeholder5{
+  position: absolute;
+  top: 60%;
+  left: 34%;
+  height: 50px;
+  width: 50px;
+  z-index: 100;
+}
   /* .e{
     width: 25%;
     outline-color: black;
