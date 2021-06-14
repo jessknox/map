@@ -40,19 +40,18 @@ a{
   margin-right: auto;
 }
 
-
-.placeholder{
+.tri1{
   position: absolute;
-  top: 5%;
-  left: 27%;
-  height: 50px;
-  width: 50px;
+  top: 7%;
+  left: 26%;
+  height: 20px;
+  width: 20px;
   z-index: 100;
 }
-  .placeholder:hover{
+  .tri1:hover{
     filter: drop-shadow(0 0 30px #CEFA05);
   }
-  .placeholder .home {
+  .tri1 .home {
     visibility: hidden;
     width: 500px;
     text-align: left;
@@ -62,46 +61,46 @@ a{
     left: 90%;
     z-index: 4;
   }
-  .placeholder:hover .home{
+  .tri1:hover .home{
     visibility: visible;
   }
 
-.placeholder2{
+.tri2{
   position: absolute;
   top: 20%;
-  left: 20%;
-  height: 50px;
-  width: 50px;
+  left: 24%;
+  height: 20px;
+  width: 20px;
   z-index: 100;
 }
-  .placeholder2:hover{
+  .tri2:hover{
     filter: drop-shadow(0 0 30px #CEFA05);
   }
-  .placeholder2 .map {
+  .tri2 .map {
     visibility: hidden;
     width: 500px;
     text-align: left;
     border-radius: 6px;
     padding: 0px 0;
     position: absolute;
-    left: 90%;
+    left: -200%;
     z-index: 4;
   }
-  .placeholder2:hover .map{
+  .tri2:hover .map{
     visibility: visible;
   }
-.placeholder3{
+.tri3{
   position: absolute;
   top: 35%;
   left: 35%;
-  height: 50px;
-  width: 50px;
+  height: 20px;
+  width: 20px;
   z-index: 100;
 }
-  .placeholder3:hover{
+  .tri3:hover{
     filter: drop-shadow(0 0 30px #CEFA05);
   }
-  .placeholder3 .video {
+  .tri3 .video {
     visibility: hidden;
     width: 500px;
     text-align: left;
@@ -111,16 +110,16 @@ a{
     left: 90%;
     z-index: 4;
   }
-  .placeholder3:hover .video{
+  .tri3:hover .video{
     visibility: visible;
   }
 
-.placeholder4{
+.tri4{
   position: absolute;
   top: 42%;
   left: 25%;
-  height: 50px;
-  width: 50px;
+  height: 20px;
+  width: 20px;
   z-index: 100;
 }
 
