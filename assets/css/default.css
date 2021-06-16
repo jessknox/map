@@ -139,7 +139,7 @@ a{
     visibility: visible;
   }
 
-.placeholder5{
+.tri5{
   position: absolute;
   top: 60%;
   left: 34%;
@@ -147,3 +147,19 @@ a{
   width: 50px;
   z-index: 100;
 }
+ .tri5:hover{
+    filter: drop-shadow(0 0 30px #CEFA05);
+  }
+  .tri5 .films {
+    visibility: hidden;
+    width: 500px;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 90%;
+    z-index: 4;
+  }
+  .tri5:hover .films{
+    visibility: visible;
+  }
