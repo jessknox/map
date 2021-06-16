@@ -122,6 +122,22 @@ a{
   width: 20px;
   z-index: 100;
 }
+.tri4:hover{
+    filter: drop-shadow(0 0 30px #CEFA05);
+  }
+  .tri4 .wardrobe {
+    visibility: hidden;
+    width: 500px;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: -200%;
+    z-index: 4;
+  }
+  .tri4:hover .wardrobe{
+    visibility: visible;
+  }
 
 .placeholder5{
   position: absolute;
