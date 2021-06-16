@@ -143,10 +143,11 @@ a{
   position: absolute;
   top: 60%;
   left: 34%;
-  height: 50px;
-  width: 50px;
+  height: 20px;
+  width: 20px;
   z-index: 100;
 }
+
  .tri5:hover{
     filter: drop-shadow(0 0 30px #CEFA05);
   }
