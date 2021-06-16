@@ -116,8 +116,8 @@ a{
 
 .tri4{
   position: absolute;
-  top: 47%;
-  left: 27%;
+  top: 46%;
+  left: 29%;
   height: 20px;
   width: 20px;
   z-index: 100;
@@ -142,7 +142,7 @@ a{
 .tri5{
   position: absolute;
   top: 60%;
-  left: 40%;
+  left: 43%;
   height: 20px;
   width: 20px;
   z-index: 100;
