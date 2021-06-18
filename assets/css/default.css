@@ -132,7 +132,7 @@ a{
     border-radius: 6px;
     padding: 0px 0;
     position: absolute;
-    left: -200%;
+    left: -400%;
     z-index: 4;
   }
   .tri4:hover .wardrobe{
